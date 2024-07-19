@@ -1,0 +1,100 @@
+html {
+    background-color: black;
+    color: greenyellow;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: center;
+}
+
+.calculator {
+    width: 33%;
+    height: 750px;
+    background-color: greenyellow;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.model {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 5px 0px 5px 0px;
+}
+
+textarea {
+    font-size: 20px; 
+    caret-color: auto;
+    caret-shape: block;
+    border-radius: none; 
+    height: 25%;
+    width: 85%;
+    color: ghostwhite;
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 22px;
+    resize: none;
+    border-color: black;
+    border-width: 10px 15px 10px 15px;
+    border-radius: 15px;
+}
+
+.separator {
+    width: 100%;
+    background-color: black;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    flex: 0 0 calc(25% - 10px); 
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: black;
+    color: yellowgreen;
+}
+
+
+#caret {
+    width: 8px; 
+    height: 16px; 
+    background: #282828; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: inline; 
+    animation-name: parpadear;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: steps(1, start);
+}
+
+@keyframes parpadear {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
