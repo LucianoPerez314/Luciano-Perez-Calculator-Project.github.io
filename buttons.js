@@ -73,7 +73,7 @@ function parseTerminal() {
     // Get the textarea element
     const textarea = document.getElementById('terminal');
     if (textarea.value === "01001100 01100101 01110100 00100111 01110011 00100000 01010000 01101100 01100001 01111001") {
-        window.location.href = 'http://127.0.0.1:5500/game.html';
+        window.location.href = 'https://lucianoperez314.github.io/2D-Game-Project-Luciano-Perez.github.io/';
     } else if (textarea.value === "01134") {
         textarea.value = "HI :)";
     }else {
